@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sorteio.hexpro.igmanager.MenuActivity"
+    android:fillViewport="true">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E6E7E8"
+        android:backgroundTint="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/buscaId"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/butao_busca"
+            app:layout_constraintEnd_toStartOf="@+id/controleId"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/controleId"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/butao_controle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buscaId"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/cadastroId"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/butao_cadastro"
+            app:layout_constraintEnd_toStartOf="@+id/saidaId"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buscaId" />
+
+        <ImageView
+            android:id="@+id/saidaId"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/butao_saida"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/cadastroId"
+            app:layout_constraintTop_toBottomOf="@+id/controleId" />
+
+        <ImageView
+            android:id="@+id/logoId"
+            android:layout_width="228dp"
+            android:layout_height="167dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/logo_ig_lado"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/saidaId" />
+
+        <TextView
+            android:id="@+id/resultadoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:text="0"
+            android:textColor="@android:color/background_light"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="@+id/controleId"
+            app:layout_constraintStart_toStartOf="@+id/controleId"
+            app:layout_constraintTop_toTopOf="@+id/controleId" />
+
+        <TextView
+            android:id="@+id/textAves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="AVES"
+            app:layout_constraintEnd_toEndOf="@+id/controleId"
+            app:layout_constraintStart_toStartOf="@+id/controleId"
+            app:layout_constraintTop_toBottomOf="@+id/resultadoId" />
+    </android.support.constraint.ConstraintLayout>
+
+
+
+
+
+</ScrollView>

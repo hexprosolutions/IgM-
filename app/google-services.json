@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "857106317349",
+    "firebase_url": "https://igmanager-3d71b.firebaseio.com",
+    "project_id": "igmanager-3d71b",
+    "storage_bucket": "igmanager-3d71b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857106317349:android:66943b5f150a617b",
+        "android_client_info": {
+          "package_name": "sorteio.hexpro.igmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857106317349-qa6p9nr5fhvs54chprfu2iq04h5a8ihr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sorteio.hexpro.igmanager",
+            "certificate_hash": "14f84b14b8b523541efa927360caa95c8fb9b458"
+          }
+        },
+        {
+          "client_id": "857106317349-c1ptkvc366hf0k48052g02d4f2orl1pi.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "857106317349-c1ptkvc366hf0k48052g02d4f2orl1pi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5pOFfaWSquN9vnS4n05AKn_1QYpWTuKo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857106317349-c1ptkvc366hf0k48052g02d4f2orl1pi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
